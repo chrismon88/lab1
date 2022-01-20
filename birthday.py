@@ -7,4 +7,4 @@ print("Hello, " + name + "!")
 if birth_month == "December":
     print("Happy birthday month!")
 
-print(f"There are {len(name)} letters in your name")
+print(f"There are {len(name)} letters in your name!")
