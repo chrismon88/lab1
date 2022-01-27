@@ -12,7 +12,14 @@ def parser(userInput):
     j = "".join(new_list)
     return j
 
+def banner():
+    """ Display program name """
+    message = "Awesome camelcase program!!"
+    stars = "*" * len(message)
+    print(f'\n{stars} \n{message} \n{stars}\n')
+
 def main():
+    banner()
     user_txt = input("Enter the senetence you wish to parse:")
     print(parser(user_txt))
 main()
