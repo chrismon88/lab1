@@ -18,8 +18,12 @@ def banner():
     stars = "*" * len(message)
     print(f'\n{stars} \n{message} \n{stars}\n')
 
+def instructions():
+    print("Enter a sentance and this program will convert it to camelcase.")
+
 def main():
     banner()
+    instructions()
     user_txt = input("Enter the senetence you wish to parse:")
     print(parser(user_txt))
 main()
