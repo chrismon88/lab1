@@ -26,4 +26,5 @@ def main():
     instructions()
     user_txt = input("Enter the senetence you wish to parse:")
     print(parser(user_txt))
-main()
+if __name__ == ' __main__':
+    main()
